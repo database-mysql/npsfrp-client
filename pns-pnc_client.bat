@@ -1,8 +1,8 @@
 echo off
 echo NPS FRP
 echo
-set /p server_ip="ÇëÊäÈëÓ³Éä·şÎñÆ÷IP: "
-set /p user_key="ÇëÊäÈëÓÃ»§ÃÜÔ¿: "
+set /p server_ip="è¯·è¾“å…¥æ˜ å°„æœåŠ¡å™¨IP: "
+set /p user_key="è¯·è¾“å…¥ç”¨æˆ·å¯†é’¥: "
 ping %server_ip%
 npc.exe -server=%server_ip%:8024 -vkey=%user_key% -type=tcp
 pause
